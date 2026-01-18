@@ -48,15 +48,15 @@ That's approximately 550 of the most-watched US equities.
 
 ```json
 {
-  "ticker": "TSLA",
-  "company": "Tesla Inc",
-  "move": "-4.2%",
-  "confidence": 87,
+  "ticker": "NVDA",
+  "company": "NVIDIA Corp",
+  "move": "+3.2%",
+  "confidence": 90,
   "mystery_move": false,
   "period": "today",
-  "summary": "Tesla dropped 4.2% after Q4 delivery numbers missed analyst expectations. The 495,570 vehicles delivered fell short of the 528,000 consensus, raising concerns about demand.",
-  "url": "https://justhappened.wtf/TSLA",
-  "source": "WTF Just Happened"
+  "summary": "NVIDIA surged as semiconductor stocks gained momentum following Taiwan Semiconductor's blowout Q4 earnings, which beat estimates and raised capital expenditure forecasts. The stock's performance mirrored the SMH semiconductor ETF's rally, indicating broader sector strength driven by sustained AI infrastructure demand. Morgan Stanley reiterated its Overweight rating, citing NVIDIA's dominant position in AI accelerators.",
+  "url": "https://justhappened.wtf/NVDA",
+  "source": "WTF Just Happened - big moves explained"
 }
 ```
 
