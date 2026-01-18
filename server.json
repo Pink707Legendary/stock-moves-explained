@@ -1,11 +1,11 @@
 {
-  "$schema": "https://registry.modelcontextprotocol.io/schemas/server.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.Pink707Legendary/stock-moves-explained",
   "version": "1.0.0",
-  "description": "Explains why US stocks moved today. Get AI-powered analysis when you ask 'why did Tesla drop?', 'what's going on with NVDA?', 'why is Apple down?', or 'what happened to Google stock?'. Covers S&P 500, NASDAQ 100, and Dow 30 (~550 stocks). Identifies news catalysts and flags mystery moves with no obvious reason. Not for price quotes or trading advice.",
+  "description": "Explains why US stocks moved. AI analysis for 'why did Tesla drop?' queries. S&P 500/NASDAQ/Dow.",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/Pink707Legendary/stock-moves-explained"
+    "url": "https://github.com/Pink707Legendary/stock-moves-explained",
+    "source": "github"
   },
   "remotes": [
     {
