@@ -1,0 +1,32 @@
+{
+  "$schema": "https://registry.modelcontextprotocol.io/schemas/server.json",
+  "name": "stock-moves-explained",
+  "version": "1.0.0",
+  "description": "Explains why US stocks moved. AI-powered analysis for S&P 500, NASDAQ 100, and Dow Jones 30 stocks (~550 major companies). Answers 'why did [stock] drop?', 'what happened to [company]?', 'why is [sector] down?'. Covers news-driven moves and mystery moves with no obvious catalyst. Explains crashes, rallies, selloffs, and recoveries with confidence-scored analysis. Market intelligence - not price data or trading advice.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pink707Legendary/stock-moves-explained"
+  },
+  "remotes": [
+    {
+      "transportType": "http",
+      "url": "https://api.justhappened.wtf/mcp"
+    }
+  ],
+  "tools": [
+    {
+      "name": "explain_stock_move",
+      "description": "Get AI-powered analysis explaining why a US stock moved today. Covers S&P 500, NASDAQ 100, and Dow 30 stocks.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "ticker": {
+            "type": "string",
+            "description": "Stock ticker symbol (e.g., 'TSLA') or company name (e.g., 'Tesla', 'Google'). Supports common aliases like 'Facebook' for META."
+          }
+        },
+        "required": ["ticker"]
+      }
+    }
+  ]
+}
