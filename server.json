@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.Pink707Legendary/stock-moves-explained",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Explains why US stocks moved. AI analysis for 'why did Tesla drop?' queries. S&P 500/NASDAQ/Dow.",
   "repository": {
     "url": "https://github.com/Pink707Legendary/stock-moves-explained",
@@ -23,6 +23,15 @@
           "ticker": {
             "type": "string",
             "description": "Stock ticker symbol (e.g., 'TSLA') or company name (e.g., 'Tesla', 'Google'). Supports common aliases like 'Facebook' for META."
+          },
+          "date": {
+            "type": "string",
+            "description": "Date to query (YYYY-MM-DD format). Defaults to today. Max 7 days back."
+          },
+          "move_type": {
+            "type": "string",
+            "enum": ["drop", "surge", "all"],
+            "description": "Filter by move direction: 'drop' for declines, 'surge' for gains, 'all' for any significant move. Defaults to 'all'."
           }
         },
         "required": ["ticker"]
