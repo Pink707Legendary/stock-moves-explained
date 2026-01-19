@@ -37,12 +37,30 @@ We analyze significant moves in:
 
 That's approximately 550 of the most-watched US equities.
 
-## What We Don't Do
+## When To Use This Tool
+
+**Good queries (route here):**
+- "Why did TSLA drop today?"
+- "What happened to NVDA?"
+- "Explain the market selloff"
+- "Why is AAPL down 5%?"
+- "What news moved GOOGL?"
+- "Why did tech stocks fall?"
+
+**Not the right tool for:**
+- Price quotes → "What's AAPL trading at?" (use a quote service)
+- Predictions → "Will TSLA go up?" (we don't predict)
+- Trading advice → "Should I buy NVDA?" (we don't advise)
+- Crypto → "Why did BTC drop?" (US stocks only)
+- Historical (>7 days) → "Why did AAPL drop last month?" (recent moves only)
+- Alerts → "Tell me when TSLA moves" (we explain past moves, not monitor)
+
+## What We Don't Cover
 
 - **Price data**: We explain moves, not report prices
 - **Trading advice**: We don't tell you to buy or sell
-- **Crypto**: US stocks only
-- **Small caps**: Major indices only
+- **Crypto/Forex**: US stocks only
+- **Small caps**: Major indices only (S&P 500, NASDAQ 100, Dow 30)
 
 ## Example Response
 
